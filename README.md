@@ -1,6 +1,6 @@
 # 🤖 Tổng Hợp Các Dự Án Machine Learning Trong Môn Học "Máy Học Thống Kê"
 
-👋 Chào mừng bạn đến với kho lưu trữ các dự án trong đồ án môn học 'Máy học thông kê". Kho này chứa một loạt các dự án thể hiện những kỹ năng và kiến thức của tôi trong lĩnh vực học máy, từ xử lý dữ liệu đến xây dựng và đánh giá các mô hình phức tạp.
+👋 Chào mừng bạn đến với kho lưu trữ các dự án trong đồ án môn học 'Máy học thống kê". Kho này chứa một loạt các dự án thể hiện những kỹ năng và kiến thức của tôi trong lĩnh vực học máy, từ xử lý dữ liệu đến xây dựng và đánh giá các mô hình phức tạp.
 
 ## 📋 Mục Lục
 1. [💳 Dự án 1: Phân loại điểm tín dụng](#-dự-án-1-phân-loại-điểm-tín-dụng)
