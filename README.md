@@ -20,22 +20,27 @@ Dự án này tập trung vào việc xây dựng một mô hình phân loại �
 ### ⚙️ Quy trình thực hiện
 1️⃣ **Tải và khám phá dữ liệu**: Tải tập dữ liệu train và test, sau đó gộp lại để thực hiện tiền xử lý đồng bộ.  
 2️⃣ **Làm sạch và tiền xử lý dữ liệu**:  
+
     *   Thực hiện làm sạch văn bản để loại bỏ các ký tự không cần thiết.  
     *   Chuyển đổi kiểu dữ liệu của các cột cho phù hợp (ví dụ: ID, tuổi, thu nhập).  
     *   Xử lý các giá trị thiếu (`NaN`) và các giá trị đặc biệt.  
     *   Xử lý các giá trị ngoại lệ (outlier) bằng phương pháp IQR.  
     *   Điền các giá trị thiếu cho các cột số bằng giá trị trung bình và các cột phân loại bằng giá trị mode.\   
 3️⃣ **Kỹ thuật đặc trưng (Feature Engineering)**:  
+
     *   Tạo biến giả (dummy variables) từ các cột phân loại có chứa nhiều giá trị, ví dụ như `Type_of_Loan`.  
     *   Sử dụng `OrdinalEncoder` để chuyển đổi các cột phân loại còn lại thành dạng số.  
 4️⃣ **Lựa chọn và chuẩn hóa đặc trưng**:  
+
     *   Loại bỏ các đặc trưng không cần thiết dựa trên phân tích.  
     *   Chuẩn hóa dữ liệu bằng `MinMaxScaler`.  
 5️⃣ **Xây dựng và huấn luyện mô hình**:  
+
     *   Phân chia dữ liệu thành tập huấn luyện và tập xác thực.  
     *   Sử dụng `GridSearchCV` để tìm các tham số tối ưu cho mô hình `SVC`.  
     *   Huấn luyện các mô hình `SVC` và `KNeighborsClassifier`.  
 6️⃣ **Đánh giá mô hình**:  
+
     *   Đánh giá hiệu suất của các mô hình trên tập xác thực bằng `classification_report` và `confusion_matrix`.  
 
 ### 🏆 Kết quả
