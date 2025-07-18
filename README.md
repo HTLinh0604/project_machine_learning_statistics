@@ -1,18 +1,18 @@
-# Tổng Hợp Các Dự Án Machine Learning
+# 🤖 Tổng Hợp Các Dự Án Machine Learning
 
 Chào mừng bạn đến với kho lưu trữ các dự án Machine Learning của tôi. Kho này chứa một loạt các dự án thể hiện những kỹ năng và kiến thức của tôi trong lĩnh vực học máy, từ xử lý dữ liệu đến xây dựng và đánh giá các mô hình phức tạp.
 
-## Mục Lục
-1. [Dự án 1: Phân loại điểm tín dụng](#dự-án-1-phân-loại-điểm-tín-dụng)
-2. [Dự án 2: Phân cụm khách hàng ngân hàng](#dự-án-2-phân-cụm-khách-hàng-ngân-hàng)
-3. [Dự án 3: Phân loại tiền thật/giả](#dự-án-3-phân-loại-tiền-thậtgiả)
-4. [Dự án 4: Dự đoán giá kim cương](#dự-án-4-dự-đoán-giá-kim-cương)
-5. [Dự án 5: Dự đoán giá cổ phiếu Uber](#dự-án-5-dự-đoán-giá-cổ-phiếu-uber)
-6. [Dự án 6: Phân loại chất lượng cam bằng CNN](#dự-án-6-phân-loại-chất-lượng-cam-bằng-cnn)
+## 📋 Mục Lục
+1. 💳 Dự án 1: Phân loại điểm tín dụng
+2. 👥 Dự án 2: Phân cụm khách hàng ngân hàng
+3. 💵 Dự án 3: Phân loại tiền thật/giả
+4. 💎 Dự án 4: Dự đoán giá kim cương
+5. 📈 Dự án 5: Dự đoán giá cổ phiếu Uber
+6. 🍊 Dự án 6: Phân loại chất lượng cam bằng CNN
 
 ---
 
-## Dự án 1: Phân loại điểm tín dụng
+## 💳 Dự án 1: Phân loại điểm tín dụng
 
 ### Giới thiệu
 Dự án này tập trung vào việc xây dựng một mô hình phân loại để dự đoán điểm tín dụng của khách hàng (Tốt, Khá, Kém) dựa trên các thông tin cá nhân và lịch sử tài chính của họ.
