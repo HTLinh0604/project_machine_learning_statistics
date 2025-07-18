@@ -24,7 +24,8 @@ Dự án này tập trung vào việc xây dựng một mô hình phân loại �
 - Chuyển đổi kiểu dữ liệu của các cột cho phù hợp (ví dụ: ID, tuổi, thu nhập).  
 - Xử lý các giá trị thiếu (`NaN`) và các giá trị đặc biệt.  
 - Xử lý các giá trị ngoại lệ (outlier) bằng phương pháp IQR.  
-- Điền các giá trị thiếu cho các cột số bằng giá trị trung bình và các cột phân loại bằng giá trị mode.  
+- Điền các giá trị thiếu cho các cột số bằng giá trị trung bình và các cột phân loại bằng giá trị mode.
+
 3️⃣ **Kỹ thuật đặc trưng (Feature Engineering)**:  
     *   Tạo biến giả (dummy variables) từ các cột phân loại có chứa nhiều giá trị, ví dụ như `Type_of_Loan`.  
     *   Sử dụng `OrdinalEncoder` để chuyển đổi các cột phân loại còn lại thành dạng số.  
