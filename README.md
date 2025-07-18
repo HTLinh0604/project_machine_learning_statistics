@@ -19,6 +19,7 @@ Dự án này tập trung vào việc xây dựng một mô hình phân loại �
 
 ### ⚙️ Quy trình thực hiện
 1️⃣ **Tải và khám phá dữ liệu**: Tải tập dữ liệu train và test, sau đó gộp lại để thực hiện tiền xử lý đồng bộ. 
+
 2️⃣ **Làm sạch và tiền xử lý dữ liệu**:
     *   Thực hiện làm sạch văn bản để loại bỏ các ký tự không cần thiết.
     *   Chuyển đổi kiểu dữ liệu của các cột cho phù hợp (ví dụ: ID, tuổi, thu nhập).
